@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>project2:XTeer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" sizes="16x16">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://kit.fontawesome.com/f599f87d92.js" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="gnb_open">
+            <a href="" class="logo"><img src="images/logo.png" alt=""></a>
+            <nav id="open_gnb">
+                <ul>
+                    <li>
+                        <a href="">XTeer 소개</a>
+                        <ul>
+                            <li><a href="">경쟁력</a></li>
+                            <li><a href="">회사소개</a></li>
+                            <li><a href="">XTeer 아이덴티티</a></li>
+                            <li><a href="">네트워크</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">XTeer 제품</a>
+                        <ul>
+                            <li><a href="">내 오일찾기</a></li>
+                            <li><a href="">제품 라인업</a></li>
+                            <li><a href="">기술자료</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">윤활유 정보</a>
+                        <ul>
+                            <li><a href="">윤활유</a></li>
+                            <li><a href="">윤활기유</a></li>
+                            <li><a href="">윤활유 첨가제</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">마케팅</a>
+                        <ul>
+                            <li><a href="">보도자료</a></li>
+                            <li><a href="">판촉활동</a></li>
+                            <li><a href="">세계속의 XTeer</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">문의사항</a>
+                        <ul>
+                            <li><a href="">Q&A</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header id="header">
+            <div class="header_mark"></div>
+            <div class="gnb_mark"></div>
+            <a href="" class="logo">XTeer</a>
+            <div class="header_inner">
+                <nav id="gnb">
+                    <ul class="gnb_depth1">
+                        <li>
+                            <a href="">XTeer 소개</a>
+                            <ul class="gnb_depth2">
+                                <li><a href="">경쟁력</a></li>
+                                <li><a href="">회사소개</a></li>
+                                <li><a href="">XTeer 아이덴티티</a></li>
+                                <li><a href="">네트워크</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">XTeer 제품</a>
+                            <ul class="gnb_depth2">
+                                <li><a href="">내 오일찾기</a></li>
+                                <li><a href="">제품 라인업</a></li>
+                                <li><a href="">기술자료</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">윤활유 정보</a>
+                            <ul class="gnb_depth2">
+                                <li><a href="">윤활유</a></li>
+                                <li><a href="">윤활기유</a></li>
+                                <li><a href="">윤활유 첨가제</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">마케팅</a>
+                            <ul class="gnb_depth2">
+                                <li><a href="">보도자료</a></li>
+                                <li><a href="">판촉활동</a></li>
+                                <li><a href="">세계속의 XTeer</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">문의사항</a>
+                            <ul class="gnb_depth2">
+                                <li><a href="">Q&A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>    
+            <div class="right-group">
+                <ul>
+                    <li class="search"><a href="#none" class="search_icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+                    <li class="lang">
+                        <a href="#none" class="language"><img src="images/language.png" alt="" class="white"><img src="images/language-black.png" alt="" class="black"> </a>
+                        <ul class="choose_lang">
+                            <li><a href="">KR</a></li>
+                            <li><a href="">EN</a></li>
+                            <li><a href="">SP</a></li>
+                            <li><a href="">CN</a></li>
+                            <li><a href="">RU</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <a href="#none" class="tab">
+                <i>tab</i>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </header>
+        
+        <main id="content">
+            <a href="" class="go_top_btn">
+                <img src="images/go_top_btn.png" alt="">
+            </a>
+
+            <section id="page1">
+                <div class="page1_inner">
+                    <div class="key_visual">
+                        <img src="images/img_key_visual.jpg" alt="only_pc" class="only_pc">
+                        <img src="images/img_key_visual_m.jpg" alt="only_m" class="only_m">
+                    </div>
+                    <div class="text_box">
+                        <p>XTeer,<br>Made BY<br class="only_m"> HYUNDAI</p>
+                    </div>
+                    <div class="scroll_box">
+                        <p>SCROLL</p>
+                    </div>
+                </div>    
+            </section>
+
+            <section id="page2">
+                <strong>
+                    HYUNDAI XTeer는 <br>
+                    현대오일뱅크가 만든 <br class="only_m">프리미엄 윤활유 <br>
+                    전문 브랜드 입니다.
+                </strong>
+                <span>
+                    XTeer는 현대오일뱅크에서 자체 생산한<br class="only_m"> 고품질의 윤활기유와 탄탄한 기술력을 바탕으로<br>
+                    국내시장과 Global 마켓에서 빠르게<br class="only_m"> 성장하고 있습니다.
+                </span>
+            </section>
+
+            <section id="page3">
+                <div class="page3_inner">
+                    <a href="" class="texts">
+                        <h2>COMPETITIVENESS</h2>
+                        <p>현대 XTeer만의 높은 기술력을 바탕으로 새로운 비전을 제시합니다.</p>
+                        <span><img src="images/right_arrow.png" alt="" class="arrow_btn"></span>
+                    </a>
+                    <ul class="competitive">
+                        <li>
+                            <a href="">
+                            <img src="images/comp1.jpg" alt="" class="main_img"><span class="title">윤활유 전문 개발</span>
+                            <span class="title2">윤활유 전문 개발</span>
+                            <p>
+                            자체 윤활유 연구소에서<br>최고 품질의 윤활유를 전문적으로 개발하고,<br>1,000여개의 제품 개발 실적을 기록
+                            </p>
+                            <img src="images/cross1.png" alt="" class="sub_img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/comp2.jpg" alt="" class="main_img"><span class="title">압도적 혁신성</span>
+                                <span class="title2">압도적 혁신성</span>
+                                <p>
+                                고급화된 사용자 니즈를 충족하기 위해 <br>고급 엔진오일 제품군을 확장하며, 해외 대형<br>거래처 확대를 통해 현대 브랜드를 세계화할 전망
+                                </p>
+                                <img src="images/cross1.png" alt="" class="sub_img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/comp3.jpg" alt="" class="main_img"><span class="title">친환경 윤활유</span>
+                                <span class="title2">친환경 윤활유</span>
+                                <p>
+                                환경 보호에 기초를 두며,<br>친환경 소재 사용 및 환경 규제를 준수하는<br>제품 개발로 ESG 기업으로  거듭 성장하고자 함
+                                </p>
+                                <img src="images/cross1.png" alt="" class="sub_img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </section>
+
+            <section id="page4">
+                <div class="page4_inner">
+                    <div class="about_product">
+                        <a href="" class="texts">
+                            <h2>LINE-UP</h2>
+                            <p>프리미엄 윤활유의 품질 차이를 느껴보세요.</p>
+                            <span><img src="images/right_arrow.png" alt="" class="arrow_btn"></span>
+                        </a>
+                        <div class="product_detail">
+                            <ul>
+                                <li><img src="images/sportcar.png" alt=""></li>
+                                <li><img src="images/pr_icon.png" alt=""></li>
+                            </ul>
+                            <h3>XTeer TOP PRIME 5W30</h3>
+                            <p>XTeer TOP PRIME은 100% 합성 엔진오일로서 API 및 ACEA 최신 성능 요구 사항 및 유럽 명차 요구 수준을 만족시키는 최고급 엔진오일입니다.</p>
+                        </div>
+                        <div class="controller">
+                            <div class="swiper-button-prev"><a href=""><img src="images/prev_btn.png" alt=""></a></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"><a href=""><img src="images/next_btn.png" alt=""></a></div>
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/product1.png" alt="main1"></div>
+                            <div class="swiper-slide"><img src="images/product2.jpg" alt="main2"></div>
+                            <div class="swiper-slide"><img src="images/product3.jpg" alt="main3"></div>
+                            <div class="swiper-slide"><img src="images/product4.jpg" alt="main4"></div>
+                            <div class="swiper-slide"><img src="images/product5.jpg" alt="main5"></div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+
+            <section id="page5">
+                <div class="page5_inner">
+                    <a href="" class="network">
+                        <h2>LOCAL NETWORK</h2>
+                        <p>선도적인 기술력과 최상의 품질로<br>국내기업 및 소비자에게 윤활유를 공급하고 있습니다.</p>
+                        <span><img src="images/right_arrow.png" alt="arrow_btn" class="arrow_btn"></span>
+                        <dd class="first"><img src="images/img_local_network_m.jpg" alt=""></dd>
+                        
+                    </a>
+                    <a href="" class="story">
+                        <h2>BRAND STORY</h2>
+                        <p>현대 XTeer의 Brand Identity를 소개합니다.</p>
+                        <span><img src="images/right_arrow.png" alt="arrow_btn" class="arrow_btn"></span>
+                        <dd class="second"><img src="images/img_brand_story.jpg" alt=""></dd>
+                    </a>
+                </div>    
+            </section>
+
+            <section id="page6">
+                <div class="page6_inner">
+                    <h2>SEARCH</h2>
+                    <form>
+                        <input type="text" class="search_input" placeholder="찾고있는 XTeer 제품을 검색해 보세요">
+                        <button type="button" class="input_btn">GO</button>
+                    </form>
+                    <ul class="search_result">
+                        <li><a href="">#XTeer Ultra GGL 5W</a></li>
+                        <li><a href="">#XTeer Ultra GSL OW-20</a></li>
+                        <li><a href="">#XTeer Ex-Mach VG 100</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="page7">
+                <div class="page7_inner">
+                    <h2>NOW ON XTEER</h2>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="images/desktop.png" alt="">
+                                </div>
+                                <strong>Press</strong>
+                                <span>새롭고 다양한 소식이 있습니다.</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="images/present.png" alt="">
+                                </div>
+                                <strong>Promotion</strong>
+                                <span>제품프로모션 소식을 확인하세요.</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="images/local.png" alt="">
+                                </div>
+                                <strong>World Wide XTeer</strong>
+                                <span>세계속의 XTeer 제품들을 만나세요.</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </section>
+
+            <section id="page8">
+                <ul>
+                    <li><a href="">PDS & MSDS 다운로드</a></li>
+                    <li><a href="">제품 / 사업제휴 문의</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footer_inner">
+                <div class="ft_left">
+                    <p>현대오일뱅크 주식회사<br class="only_m">서울특별시 중구 통일로 10 연세세브란스빌딩 20층</p>
+                    <ul>
+                        <li>Tel. 02-2004-3000</li>
+                        <li>Customer center. 1588-5189</li>
+                    </ul>
+                    <span>© HYUNDAI OILBANK CO. ALL RIGHT RESERVED.</span>
+                </div>
+                <div class="ft_right">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook-f fa-xl"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                    </ul>
+                    <div class="family_site">
+                        <a href="" class="title"><p>FAMILY SITE</p><span><img src="images/cross-silver.png" alt=""></span></a>
+                        <ul class="fmsite">
+                            <li><a href="">현대오일터미널</a></li>
+                            <li><a href="">현대코스모</a></li>
+                            <li><a href="">현대쉘베이스오일</a></li>
+                            <li><a href="">현대케미칼</a></li>
+                            <li><a href="">현대중공업</a></li>
+                            <li><a href="">현대오일뱅크</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
